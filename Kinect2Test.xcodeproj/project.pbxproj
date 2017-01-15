@@ -1,0 +1,669 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AD9E73C51E05757100BF2982 /* libNiTE2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = AD9E73B71E05757100BF2982 /* libNiTE2.dylib */; };
+		AD9E73D71E05759000BF2982 /* libOpenNI2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = AD9E73CA1E05759000BF2982 /* libOpenNI2.dylib */; };
+		AD9E73DE1E05777F00BF2982 /* NiTE.ini in Copy Files */ = {isa = PBXBuildFile; fileRef = AD9E73C41E05757100BF2982 /* NiTE.ini */; };
+		AD9E73DF1E0577A200BF2982 /* libOpenNI2.dylib in Copy Files */ = {isa = PBXBuildFile; fileRef = AD9E73CA1E05759000BF2982 /* libOpenNI2.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		AD9E73E01E0577A800BF2982 /* org.openni.jar in Copy Files */ = {isa = PBXBuildFile; fileRef = AD9E73D31E05759000BF2982 /* org.openni.jar */; };
+		AD9E73E11E0577AC00BF2982 /* OpenNI.ini in Copy Files */ = {isa = PBXBuildFile; fileRef = AD9E73D41E05759000BF2982 /* OpenNI.ini */; };
+		AD9E73E21E0577B200BF2982 /* libOpenNI2.jni.dylib in Copy Files */ = {isa = PBXBuildFile; fileRef = AD9E73CB1E05759000BF2982 /* libOpenNI2.jni.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		AD9E73E31E0577C000BF2982 /* libNiTE2.dylib in Copy Files */ = {isa = PBXBuildFile; fileRef = AD9E73B71E05757100BF2982 /* libNiTE2.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		AD9E73E41E0577C200BF2982 /* libNiTE2.jni.dylib in Copy Files */ = {isa = PBXBuildFile; fileRef = AD9E73B81E05757100BF2982 /* libNiTE2.jni.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		AD9E73E51E0577C500BF2982 /* com.primesense.nite.jar in Copy Files */ = {isa = PBXBuildFile; fileRef = AD9E73C31E05757100BF2982 /* com.primesense.nite.jar */; };
+		AD9E73E71E0577E100BF2982 /* libfreenect2-openni2.0.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = AD9E73CE1E05759000BF2982 /* libfreenect2-openni2.0.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		AD9E73E81E0577E100BF2982 /* libOniFile.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = AD9E73CF1E05759000BF2982 /* libOniFile.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		AD9E73E91E0577E100BF2982 /* libPS1080.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = AD9E73D01E05759000BF2982 /* libPS1080.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		AD9E73EA1E0577E100BF2982 /* libPSLink.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = AD9E73D11E05759000BF2982 /* libPSLink.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		AD9E73EB1E0577E100BF2982 /* PS1080.ini in CopyFiles */ = {isa = PBXBuildFile; fileRef = AD9E73D21E05759000BF2982 /* PS1080.ini */; };
+		AD9E73ED1E0577EF00BF2982 /* FeatureExtraction.ini in CopyFiles */ = {isa = PBXBuildFile; fileRef = AD9E73BF1E05757100BF2982 /* FeatureExtraction.ini */; };
+		AD9E73EE1E0577EF00BF2982 /* h.dat in CopyFiles */ = {isa = PBXBuildFile; fileRef = AD9E73C01E05757100BF2982 /* h.dat */; };
+		AD9E73EF1E0577EF00BF2982 /* HandAlgorithms.ini in CopyFiles */ = {isa = PBXBuildFile; fileRef = AD9E73C11E05757100BF2982 /* HandAlgorithms.ini */; };
+		AD9E73F01E0577EF00BF2982 /* s.dat in CopyFiles */ = {isa = PBXBuildFile; fileRef = AD9E73C21E05757100BF2982 /* s.dat */; };
+		AD9E73F21E05780000BF2982 /* lbsdata.idx in CopyFiles */ = {isa = PBXBuildFile; fileRef = AD9E73BB1E05757100BF2982 /* lbsdata.idx */; };
+		AD9E73F31E05780000BF2982 /* lbsdata.lbd in CopyFiles */ = {isa = PBXBuildFile; fileRef = AD9E73BC1E05757100BF2982 /* lbsdata.lbd */; };
+		AD9E73F41E05780000BF2982 /* lbsparam1.lbd in CopyFiles */ = {isa = PBXBuildFile; fileRef = AD9E73BD1E05757100BF2982 /* lbsparam1.lbd */; };
+		AD9E73F51E05780000BF2982 /* lbsparam2.lbd in CopyFiles */ = {isa = PBXBuildFile; fileRef = AD9E73BE1E05757100BF2982 /* lbsparam2.lbd */; };
+		E4328149138ABC9F0047C5CB /* openFrameworksDebug.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E4328148138ABC890047C5CB /* openFrameworksDebug.a */; };
+		E4B69E200A3A1BDC003C02F2 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4B69E1D0A3A1BDC003C02F2 /* main.cpp */; };
+		E4B69E210A3A1BDC003C02F2 /* ofApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4B69E1E0A3A1BDC003C02F2 /* ofApp.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E4328147138ABC890047C5CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E4328143138ABC890047C5CB /* openFrameworksLib.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E4B27C1510CBEB8E00536013;
+			remoteInfo = openFrameworks;
+		};
+		E4EEB9AB138B136A00A80321 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E4328143138ABC890047C5CB /* openFrameworksLib.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = E4B27C1410CBEB8E00536013;
+			remoteInfo = openFrameworks;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AD9E73E61E0577C900BF2982 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = OpenNI2/Drivers;
+			dstSubfolderSpec = 6;
+			files = (
+				AD9E73E71E0577E100BF2982 /* libfreenect2-openni2.0.dylib in CopyFiles */,
+				AD9E73E81E0577E100BF2982 /* libOniFile.dylib in CopyFiles */,
+				AD9E73E91E0577E100BF2982 /* libPS1080.dylib in CopyFiles */,
+				AD9E73EA1E0577E100BF2982 /* libPSLink.dylib in CopyFiles */,
+				AD9E73EB1E0577E100BF2982 /* PS1080.ini in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD9E73EC1E0577E400BF2982 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = NiTE2;
+			dstSubfolderSpec = 7;
+			files = (
+				AD9E73ED1E0577EF00BF2982 /* FeatureExtraction.ini in CopyFiles */,
+				AD9E73EE1E0577EF00BF2982 /* h.dat in CopyFiles */,
+				AD9E73EF1E0577EF00BF2982 /* HandAlgorithms.ini in CopyFiles */,
+				AD9E73F01E0577EF00BF2982 /* s.dat in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD9E73F11E0577F200BF2982 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = NiTE2/Data;
+			dstSubfolderSpec = 7;
+			files = (
+				AD9E73F21E05780000BF2982 /* lbsdata.idx in CopyFiles */,
+				AD9E73F31E05780000BF2982 /* lbsdata.lbd in CopyFiles */,
+				AD9E73F41E05780000BF2982 /* lbsparam1.lbd in CopyFiles */,
+				AD9E73F51E05780000BF2982 /* lbsparam2.lbd in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4C2427710CC5ABF004149E2 /* Copy Files */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 6;
+			files = (
+				AD9E73DE1E05777F00BF2982 /* NiTE.ini in Copy Files */,
+				AD9E73DF1E0577A200BF2982 /* libOpenNI2.dylib in Copy Files */,
+				AD9E73E01E0577A800BF2982 /* org.openni.jar in Copy Files */,
+				AD9E73E11E0577AC00BF2982 /* OpenNI.ini in Copy Files */,
+				AD9E73E21E0577B200BF2982 /* libOpenNI2.jni.dylib in Copy Files */,
+				AD9E73E31E0577C000BF2982 /* libNiTE2.dylib in Copy Files */,
+				AD9E73E41E0577C200BF2982 /* libNiTE2.jni.dylib in Copy Files */,
+				AD9E73E51E0577C500BF2982 /* com.primesense.nite.jar in Copy Files */,
+			);
+			name = "Copy Files";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		AD9E73981E05749100BF2982 /* NiTE.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NiTE.h; path = "../../../../Code/Frameworks/NiTE-MacOSX-x64-2.2/Include/NiTE.h"; sourceTree = "<group>"; };
+		AD9E73991E05749100BF2982 /* NiteCAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NiteCAPI.h; path = "../../../../Code/Frameworks/NiTE-MacOSX-x64-2.2/Include/NiteCAPI.h"; sourceTree = "<group>"; };
+		AD9E739A1E05749100BF2982 /* NiteCEnums.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NiteCEnums.h; path = "../../../../Code/Frameworks/NiTE-MacOSX-x64-2.2/Include/NiteCEnums.h"; sourceTree = "<group>"; };
+		AD9E739B1E05749100BF2982 /* NiteCTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NiteCTypes.h; path = "../../../../Code/Frameworks/NiTE-MacOSX-x64-2.2/Include/NiteCTypes.h"; sourceTree = "<group>"; };
+		AD9E739C1E05749100BF2982 /* NiteEnums.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NiteEnums.h; path = "../../../../Code/Frameworks/NiTE-MacOSX-x64-2.2/Include/NiteEnums.h"; sourceTree = "<group>"; };
+		AD9E739D1E05749100BF2982 /* NiteVersion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NiteVersion.h; path = "../../../../Code/Frameworks/NiTE-MacOSX-x64-2.2/Include/NiteVersion.h"; sourceTree = "<group>"; };
+		AD9E739E1E0574B100BF2982 /* OniCAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OniCAPI.h; path = ../../../../../../../usr/local/Cellar/openni2/2.2.0.33/include/ni2/OniCAPI.h; sourceTree = "<group>"; };
+		AD9E739F1E0574B100BF2982 /* OniCEnums.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OniCEnums.h; path = ../../../../../../../usr/local/Cellar/openni2/2.2.0.33/include/ni2/OniCEnums.h; sourceTree = "<group>"; };
+		AD9E73A01E0574B100BF2982 /* OniCProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OniCProperties.h; path = ../../../../../../../usr/local/Cellar/openni2/2.2.0.33/include/ni2/OniCProperties.h; sourceTree = "<group>"; };
+		AD9E73A11E0574B100BF2982 /* OniCTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OniCTypes.h; path = ../../../../../../../usr/local/Cellar/openni2/2.2.0.33/include/ni2/OniCTypes.h; sourceTree = "<group>"; };
+		AD9E73A21E0574B100BF2982 /* OniEnums.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OniEnums.h; path = ../../../../../../../usr/local/Cellar/openni2/2.2.0.33/include/ni2/OniEnums.h; sourceTree = "<group>"; };
+		AD9E73A31E0574B100BF2982 /* OniPlatform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OniPlatform.h; path = ../../../../../../../usr/local/Cellar/openni2/2.2.0.33/include/ni2/OniPlatform.h; sourceTree = "<group>"; };
+		AD9E73A41E0574B100BF2982 /* OniProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OniProperties.h; path = ../../../../../../../usr/local/Cellar/openni2/2.2.0.33/include/ni2/OniProperties.h; sourceTree = "<group>"; };
+		AD9E73A51E0574B100BF2982 /* OniVersion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OniVersion.h; path = ../../../../../../../usr/local/Cellar/openni2/2.2.0.33/include/ni2/OniVersion.h; sourceTree = "<group>"; };
+		AD9E73A61E0574B100BF2982 /* OpenNI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OpenNI.h; path = ../../../../../../../usr/local/Cellar/openni2/2.2.0.33/include/ni2/OpenNI.h; sourceTree = "<group>"; };
+		AD9E73A71E0574B100BF2982 /* PrimeSense.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PrimeSense.h; path = ../../../../../../../usr/local/Cellar/openni2/2.2.0.33/include/ni2/PrimeSense.h; sourceTree = "<group>"; };
+		AD9E73A81E0574B100BF2982 /* PS1080.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PS1080.h; path = ../../../../../../../usr/local/Cellar/openni2/2.2.0.33/include/ni2/PS1080.h; sourceTree = "<group>"; };
+		AD9E73A91E0574B100BF2982 /* PSLink.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PSLink.h; path = ../../../../../../../usr/local/Cellar/openni2/2.2.0.33/include/ni2/PSLink.h; sourceTree = "<group>"; };
+		AD9E73AB1E0574B100BF2982 /* OniPlatformAndroid-Arm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "OniPlatformAndroid-Arm.h"; sourceTree = "<group>"; };
+		AD9E73AD1E0574B100BF2982 /* OniDriverAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OniDriverAPI.h; sourceTree = "<group>"; };
+		AD9E73AE1E0574B100BF2982 /* OniDriverTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OniDriverTypes.h; sourceTree = "<group>"; };
+		AD9E73B01E0574B100BF2982 /* OniPlatformLinux-Arm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "OniPlatformLinux-Arm.h"; sourceTree = "<group>"; };
+		AD9E73B21E0574B100BF2982 /* OniPlatformLinux-x86.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "OniPlatformLinux-x86.h"; sourceTree = "<group>"; };
+		AD9E73B41E0574B100BF2982 /* OniPlatformMacOSX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OniPlatformMacOSX.h; sourceTree = "<group>"; };
+		AD9E73B61E0574B100BF2982 /* OniPlatformWin32.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OniPlatformWin32.h; sourceTree = "<group>"; };
+		AD9E73B71E05757100BF2982 /* libNiTE2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libNiTE2.dylib; path = "../../../../Code/Frameworks/NiTE-MacOSX-x64-2.2/Redist/libNiTE2.dylib"; sourceTree = "<group>"; };
+		AD9E73B81E05757100BF2982 /* libNiTE2.jni.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libNiTE2.jni.dylib; path = "../../../../Code/Frameworks/NiTE-MacOSX-x64-2.2/Redist/libNiTE2.jni.dylib"; sourceTree = "<group>"; };
+		AD9E73BB1E05757100BF2982 /* lbsdata.idx */ = {isa = PBXFileReference; lastKnownFileType = file; path = lbsdata.idx; sourceTree = "<group>"; };
+		AD9E73BC1E05757100BF2982 /* lbsdata.lbd */ = {isa = PBXFileReference; lastKnownFileType = file; path = lbsdata.lbd; sourceTree = "<group>"; };
+		AD9E73BD1E05757100BF2982 /* lbsparam1.lbd */ = {isa = PBXFileReference; lastKnownFileType = file; path = lbsparam1.lbd; sourceTree = "<group>"; };
+		AD9E73BE1E05757100BF2982 /* lbsparam2.lbd */ = {isa = PBXFileReference; lastKnownFileType = file; path = lbsparam2.lbd; sourceTree = "<group>"; };
+		AD9E73BF1E05757100BF2982 /* FeatureExtraction.ini */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = FeatureExtraction.ini; sourceTree = "<group>"; };
+		AD9E73C01E05757100BF2982 /* h.dat */ = {isa = PBXFileReference; lastKnownFileType = file; path = h.dat; sourceTree = "<group>"; };
+		AD9E73C11E05757100BF2982 /* HandAlgorithms.ini */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = HandAlgorithms.ini; sourceTree = "<group>"; };
+		AD9E73C21E05757100BF2982 /* s.dat */ = {isa = PBXFileReference; lastKnownFileType = file; path = s.dat; sourceTree = "<group>"; };
+		AD9E73C31E05757100BF2982 /* com.primesense.nite.jar */ = {isa = PBXFileReference; lastKnownFileType = archive.jar; name = com.primesense.nite.jar; path = "../../../../Code/Frameworks/NiTE-MacOSX-x64-2.2/Redist/com.primesense.nite.jar"; sourceTree = "<group>"; };
+		AD9E73C41E05757100BF2982 /* NiTE.ini */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = NiTE.ini; path = "../../../../Code/Frameworks/NiTE-MacOSX-x64-2.2/Redist/NiTE.ini"; sourceTree = "<group>"; };
+		AD9E73CA1E05759000BF2982 /* libOpenNI2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libOpenNI2.dylib; path = "../../../../Code/Frameworks/NiTE-MacOSX-x64-2.2/Samples/Bin/libOpenNI2.dylib"; sourceTree = "<group>"; };
+		AD9E73CB1E05759000BF2982 /* libOpenNI2.jni.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libOpenNI2.jni.dylib; path = "../../../../Code/Frameworks/NiTE-MacOSX-x64-2.2/Samples/Bin/libOpenNI2.jni.dylib"; sourceTree = "<group>"; };
+		AD9E73CE1E05759000BF2982 /* libfreenect2-openni2.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = "libfreenect2-openni2.0.dylib"; sourceTree = "<group>"; };
+		AD9E73CF1E05759000BF2982 /* libOniFile.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libOniFile.dylib; sourceTree = "<group>"; };
+		AD9E73D01E05759000BF2982 /* libPS1080.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libPS1080.dylib; sourceTree = "<group>"; };
+		AD9E73D11E05759000BF2982 /* libPSLink.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libPSLink.dylib; sourceTree = "<group>"; };
+		AD9E73D21E05759000BF2982 /* PS1080.ini */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = PS1080.ini; sourceTree = "<group>"; };
+		AD9E73D31E05759000BF2982 /* org.openni.jar */ = {isa = PBXFileReference; lastKnownFileType = archive.jar; name = org.openni.jar; path = "../../../../Code/Frameworks/NiTE-MacOSX-x64-2.2/Samples/Bin/org.openni.jar"; sourceTree = "<group>"; };
+		AD9E73D41E05759000BF2982 /* OpenNI.ini */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = OpenNI.ini; path = "../../../../Code/Frameworks/NiTE-MacOSX-x64-2.2/Samples/Bin/OpenNI.ini"; sourceTree = "<group>"; };
+		E4328143138ABC890047C5CB /* openFrameworksLib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = openFrameworksLib.xcodeproj; path = ../../../../Code/Frameworks/openFrameworks/libs/openFrameworksCompiled/project/osx/openFrameworksLib.xcodeproj; sourceTree = SOURCE_ROOT; };
+		E4B69B5B0A3A1756003C02F2 /* Kinect2TestDebug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kinect2TestDebug.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4B69E1D0A3A1BDC003C02F2 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = src/main.cpp; sourceTree = SOURCE_ROOT; };
+		E4B69E1E0A3A1BDC003C02F2 /* ofApp.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofApp.cpp; path = src/ofApp.cpp; sourceTree = SOURCE_ROOT; };
+		E4B69E1F0A3A1BDC003C02F2 /* ofApp.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = ofApp.h; path = src/ofApp.h; sourceTree = SOURCE_ROOT; };
+		E4B6FCAD0C3E899E008CF71C /* openFrameworks-Info.plist */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.plist.xml; path = "openFrameworks-Info.plist"; sourceTree = "<group>"; };
+		E4EB691F138AFCF100A09F29 /* CoreOF.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = CoreOF.xcconfig; path = ../../../../Code/Frameworks/openFrameworks/libs/openFrameworksCompiled/project/osx/CoreOF.xcconfig; sourceTree = SOURCE_ROOT; };
+		E4EB6923138AFD0F00A09F29 /* Project.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Project.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E4B69B590A3A1756003C02F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4328149138ABC9F0047C5CB /* openFrameworksDebug.a in Frameworks */,
+				AD9E73C51E05757100BF2982 /* libNiTE2.dylib in Frameworks */,
+				AD9E73D71E05759000BF2982 /* libOpenNI2.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6948EE371B920CB800B5AC1A /* local_addons */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = local_addons;
+			sourceTree = "<group>";
+		};
+		AD9E73921E0572FB00BF2982 /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				AD9E73951E05731E00BF2982 /* OpenNI */,
+				AD9E73941E05731600BF2982 /* NiTE2 */,
+			);
+			name = libs;
+			sourceTree = "<group>";
+		};
+		AD9E73931E05730600BF2982 /* includes */ = {
+			isa = PBXGroup;
+			children = (
+				AD9E73971E05734100BF2982 /* NiTE2 */,
+				AD9E73961E05733B00BF2982 /* OpenNI */,
+			);
+			name = includes;
+			sourceTree = "<group>";
+		};
+		AD9E73941E05731600BF2982 /* NiTE2 */ = {
+			isa = PBXGroup;
+			children = (
+				AD9E73B71E05757100BF2982 /* libNiTE2.dylib */,
+				AD9E73B81E05757100BF2982 /* libNiTE2.jni.dylib */,
+				AD9E73B91E05757100BF2982 /* NiTE2 */,
+				AD9E73C31E05757100BF2982 /* com.primesense.nite.jar */,
+				AD9E73C41E05757100BF2982 /* NiTE.ini */,
+			);
+			name = NiTE2;
+			sourceTree = "<group>";
+		};
+		AD9E73951E05731E00BF2982 /* OpenNI */ = {
+			isa = PBXGroup;
+			children = (
+				AD9E73CA1E05759000BF2982 /* libOpenNI2.dylib */,
+				AD9E73CB1E05759000BF2982 /* libOpenNI2.jni.dylib */,
+				AD9E73CC1E05759000BF2982 /* OpenNI2 */,
+				AD9E73D31E05759000BF2982 /* org.openni.jar */,
+				AD9E73D41E05759000BF2982 /* OpenNI.ini */,
+			);
+			name = OpenNI;
+			sourceTree = "<group>";
+		};
+		AD9E73961E05733B00BF2982 /* OpenNI */ = {
+			isa = PBXGroup;
+			children = (
+				AD9E739E1E0574B100BF2982 /* OniCAPI.h */,
+				AD9E739F1E0574B100BF2982 /* OniCEnums.h */,
+				AD9E73A01E0574B100BF2982 /* OniCProperties.h */,
+				AD9E73A11E0574B100BF2982 /* OniCTypes.h */,
+				AD9E73A21E0574B100BF2982 /* OniEnums.h */,
+				AD9E73A31E0574B100BF2982 /* OniPlatform.h */,
+				AD9E73A41E0574B100BF2982 /* OniProperties.h */,
+				AD9E73A51E0574B100BF2982 /* OniVersion.h */,
+				AD9E73A61E0574B100BF2982 /* OpenNI.h */,
+				AD9E73A71E0574B100BF2982 /* PrimeSense.h */,
+				AD9E73A81E0574B100BF2982 /* PS1080.h */,
+				AD9E73A91E0574B100BF2982 /* PSLink.h */,
+				AD9E73AA1E0574B100BF2982 /* Android-Arm */,
+				AD9E73AC1E0574B100BF2982 /* Driver */,
+				AD9E73AF1E0574B100BF2982 /* Linux-Arm */,
+				AD9E73B11E0574B100BF2982 /* Linux-x86 */,
+				AD9E73B31E0574B100BF2982 /* MacOSX */,
+				AD9E73B51E0574B100BF2982 /* Win32 */,
+			);
+			name = OpenNI;
+			sourceTree = "<group>";
+		};
+		AD9E73971E05734100BF2982 /* NiTE2 */ = {
+			isa = PBXGroup;
+			children = (
+				AD9E73981E05749100BF2982 /* NiTE.h */,
+				AD9E73991E05749100BF2982 /* NiteCAPI.h */,
+				AD9E739A1E05749100BF2982 /* NiteCEnums.h */,
+				AD9E739B1E05749100BF2982 /* NiteCTypes.h */,
+				AD9E739C1E05749100BF2982 /* NiteEnums.h */,
+				AD9E739D1E05749100BF2982 /* NiteVersion.h */,
+			);
+			name = NiTE2;
+			sourceTree = "<group>";
+		};
+		AD9E73AA1E0574B100BF2982 /* Android-Arm */ = {
+			isa = PBXGroup;
+			children = (
+				AD9E73AB1E0574B100BF2982 /* OniPlatformAndroid-Arm.h */,
+			);
+			name = "Android-Arm";
+			path = "../../../../../../../usr/local/Cellar/openni2/2.2.0.33/include/ni2/Android-Arm";
+			sourceTree = "<group>";
+		};
+		AD9E73AC1E0574B100BF2982 /* Driver */ = {
+			isa = PBXGroup;
+			children = (
+				AD9E73AD1E0574B100BF2982 /* OniDriverAPI.h */,
+				AD9E73AE1E0574B100BF2982 /* OniDriverTypes.h */,
+			);
+			name = Driver;
+			path = ../../../../../../../usr/local/Cellar/openni2/2.2.0.33/include/ni2/Driver;
+			sourceTree = "<group>";
+		};
+		AD9E73AF1E0574B100BF2982 /* Linux-Arm */ = {
+			isa = PBXGroup;
+			children = (
+				AD9E73B01E0574B100BF2982 /* OniPlatformLinux-Arm.h */,
+			);
+			name = "Linux-Arm";
+			path = "../../../../../../../usr/local/Cellar/openni2/2.2.0.33/include/ni2/Linux-Arm";
+			sourceTree = "<group>";
+		};
+		AD9E73B11E0574B100BF2982 /* Linux-x86 */ = {
+			isa = PBXGroup;
+			children = (
+				AD9E73B21E0574B100BF2982 /* OniPlatformLinux-x86.h */,
+			);
+			name = "Linux-x86";
+			path = "../../../../../../../usr/local/Cellar/openni2/2.2.0.33/include/ni2/Linux-x86";
+			sourceTree = "<group>";
+		};
+		AD9E73B31E0574B100BF2982 /* MacOSX */ = {
+			isa = PBXGroup;
+			children = (
+				AD9E73B41E0574B100BF2982 /* OniPlatformMacOSX.h */,
+			);
+			name = MacOSX;
+			path = ../../../../../../../usr/local/Cellar/openni2/2.2.0.33/include/ni2/MacOSX;
+			sourceTree = "<group>";
+		};
+		AD9E73B51E0574B100BF2982 /* Win32 */ = {
+			isa = PBXGroup;
+			children = (
+				AD9E73B61E0574B100BF2982 /* OniPlatformWin32.h */,
+			);
+			name = Win32;
+			path = ../../../../../../../usr/local/Cellar/openni2/2.2.0.33/include/ni2/Win32;
+			sourceTree = "<group>";
+		};
+		AD9E73B91E05757100BF2982 /* NiTE2 */ = {
+			isa = PBXGroup;
+			children = (
+				AD9E73BA1E05757100BF2982 /* Data */,
+				AD9E73BF1E05757100BF2982 /* FeatureExtraction.ini */,
+				AD9E73C01E05757100BF2982 /* h.dat */,
+				AD9E73C11E05757100BF2982 /* HandAlgorithms.ini */,
+				AD9E73C21E05757100BF2982 /* s.dat */,
+			);
+			name = NiTE2;
+			path = "../../../../Code/Frameworks/NiTE-MacOSX-x64-2.2/Redist/NiTE2";
+			sourceTree = "<group>";
+		};
+		AD9E73BA1E05757100BF2982 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				AD9E73BB1E05757100BF2982 /* lbsdata.idx */,
+				AD9E73BC1E05757100BF2982 /* lbsdata.lbd */,
+				AD9E73BD1E05757100BF2982 /* lbsparam1.lbd */,
+				AD9E73BE1E05757100BF2982 /* lbsparam2.lbd */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		AD9E73CC1E05759000BF2982 /* OpenNI2 */ = {
+			isa = PBXGroup;
+			children = (
+				AD9E73CD1E05759000BF2982 /* Drivers */,
+			);
+			name = OpenNI2;
+			path = "../../../../Code/Frameworks/NiTE-MacOSX-x64-2.2/Samples/Bin/OpenNI2";
+			sourceTree = "<group>";
+		};
+		AD9E73CD1E05759000BF2982 /* Drivers */ = {
+			isa = PBXGroup;
+			children = (
+				AD9E73CE1E05759000BF2982 /* libfreenect2-openni2.0.dylib */,
+				AD9E73CF1E05759000BF2982 /* libOniFile.dylib */,
+				AD9E73D01E05759000BF2982 /* libPS1080.dylib */,
+				AD9E73D11E05759000BF2982 /* libPSLink.dylib */,
+				AD9E73D21E05759000BF2982 /* PS1080.ini */,
+			);
+			path = Drivers;
+			sourceTree = "<group>";
+		};
+		BB4B014C10F69532006C3DED /* addons */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = addons;
+			sourceTree = "<group>";
+		};
+		E4328144138ABC890047C5CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E4328148138ABC890047C5CB /* openFrameworksDebug.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E4B69B4A0A3A1720003C02F2 = {
+			isa = PBXGroup;
+			children = (
+				E4B6FCAD0C3E899E008CF71C /* openFrameworks-Info.plist */,
+				E4EB6923138AFD0F00A09F29 /* Project.xcconfig */,
+				E4B69E1C0A3A1BDC003C02F2 /* src */,
+				AD9E73921E0572FB00BF2982 /* libs */,
+				AD9E73931E05730600BF2982 /* includes */,
+				E4EEC9E9138DF44700A80321 /* openFrameworks */,
+				BB4B014C10F69532006C3DED /* addons */,
+				6948EE371B920CB800B5AC1A /* local_addons */,
+				E4B69B5B0A3A1756003C02F2 /* Kinect2TestDebug.app */,
+			);
+			sourceTree = "<group>";
+		};
+		E4B69E1C0A3A1BDC003C02F2 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				E4B69E1D0A3A1BDC003C02F2 /* main.cpp */,
+				E4B69E1E0A3A1BDC003C02F2 /* ofApp.cpp */,
+				E4B69E1F0A3A1BDC003C02F2 /* ofApp.h */,
+			);
+			path = src;
+			sourceTree = SOURCE_ROOT;
+		};
+		E4EEC9E9138DF44700A80321 /* openFrameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E4EB691F138AFCF100A09F29 /* CoreOF.xcconfig */,
+				E4328143138ABC890047C5CB /* openFrameworksLib.xcodeproj */,
+			);
+			name = openFrameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E4B69B5A0A3A1756003C02F2 /* Kinect2Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4B69B5F0A3A1757003C02F2 /* Build configuration list for PBXNativeTarget "Kinect2Test" */;
+			buildPhases = (
+				E4B69B580A3A1756003C02F2 /* Sources */,
+				E4B69B590A3A1756003C02F2 /* Frameworks */,
+				E4B6FFFD0C3F9AB9008CF71C /* ShellScript */,
+				E4C2427710CC5ABF004149E2 /* Copy Files */,
+				AD9E73E61E0577C900BF2982 /* CopyFiles */,
+				AD9E73EC1E0577E400BF2982 /* CopyFiles */,
+				AD9E73F11E0577F200BF2982 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E4EEB9AC138B136A00A80321 /* PBXTargetDependency */,
+			);
+			name = Kinect2Test;
+			productName = myOFApp;
+			productReference = E4B69B5B0A3A1756003C02F2 /* Kinect2TestDebug.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E4B69B4C0A3A1720003C02F2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+			};
+			buildConfigurationList = E4B69B4D0A3A1720003C02F2 /* Build configuration list for PBXProject "Kinect2Test" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = E4B69B4A0A3A1720003C02F2;
+			productRefGroup = E4B69B4A0A3A1720003C02F2;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = E4328144138ABC890047C5CB /* Products */;
+					ProjectRef = E4328143138ABC890047C5CB /* openFrameworksLib.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				E4B69B5A0A3A1756003C02F2 /* Kinect2Test */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		E4328148138ABC890047C5CB /* openFrameworksDebug.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = openFrameworksDebug.a;
+			remoteRef = E4328147138ABC890047C5CB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E4B6FFFD0C3F9AB9008CF71C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "mkdir -p \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/Resources/\"\n# Copy default icon file into App/Resources\nrsync -aved \"$ICON_FILE\" \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/Resources/\"\n# Copy libfmod and change install directory for fmod to run\nrsync -aved ../../../../Code/Frameworks/openFrameworks/libs/fmodex/lib/osx/libfmodex.dylib \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/Frameworks/\";\ninstall_name_tool -change @executable_path/libfmodex.dylib @executable_path/../Frameworks/libfmodex.dylib \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/MacOS/$PRODUCT_NAME\";\n# Copy GLUT framework (must remove for AppStore submissions)\nrsync -aved ../../../../Code/Frameworks/openFrameworks/libs/glut/lib/osx/GLUT.framework \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/Frameworks/\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E4B69B580A3A1756003C02F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4B69E200A3A1BDC003C02F2 /* main.cpp in Sources */,
+				E4B69E210A3A1BDC003C02F2 /* ofApp.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E4EEB9AC138B136A00A80321 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = openFrameworks;
+			targetProxy = E4EEB9AB138B136A00A80321 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E4B69B4E0A3A1720003C02F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4EB6923138AFD0F00A09F29 /* Project.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/bin/";
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				GCC_AUTO_VECTORIZATION = YES;
+				GCC_ENABLE_SSE3_EXTENSIONS = YES;
+				GCC_ENABLE_SUPPLEMENTAL_SSE3_INSTRUCTIONS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = YES;
+				GCC_WARN_ABOUT_INVALID_OFFSETOF_MACRO = NO;
+				GCC_WARN_ALLOW_INCOMPLETE_PROTOCOL = NO;
+				GCC_WARN_UNINITIALIZED_AUTOS = NO;
+				GCC_WARN_UNUSED_VALUE = NO;
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/lib/ni2/,
+					/usr/local/lib/ni2/OpenNI2/drivers/,
+					"\"$(SRCROOT)/../../../../Code/Frameworks/NiTE-MacOSX-x64-2.2/Redist\"",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-D__MACOSX_CORE__",
+					"-mtune=native",
+				);
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		E4B69B4F0A3A1720003C02F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4EB6923138AFD0F00A09F29 /* Project.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/bin/";
+				COPY_PHASE_STRIP = YES;
+				DEAD_CODE_STRIPPING = YES;
+				GCC_AUTO_VECTORIZATION = YES;
+				GCC_ENABLE_SSE3_EXTENSIONS = YES;
+				GCC_ENABLE_SUPPLEMENTAL_SSE3_INSTRUCTIONS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_UNROLL_LOOPS = YES;
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = YES;
+				GCC_WARN_ABOUT_INVALID_OFFSETOF_MACRO = NO;
+				GCC_WARN_ALLOW_INCOMPLETE_PROTOCOL = NO;
+				GCC_WARN_UNINITIALIZED_AUTOS = NO;
+				GCC_WARN_UNUSED_VALUE = NO;
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/lib/ni2/,
+					/usr/local/lib/ni2/OpenNI2/drivers/,
+					"\"$(SRCROOT)/../../../../Code/Frameworks/NiTE-MacOSX-x64-2.2/Redist\"",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-D__MACOSX_CORE__",
+					"-mtune=native",
+				);
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		E4B69B600A3A1757003C02F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4EB6923138AFD0F00A09F29 /* Project.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+				);
+				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/../../../../Code/Frameworks/openFrameworks/libs/glut/lib/osx\"";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_MODEL_TUNING = NONE;
+				ICON = "$(ICON_NAME_DEBUG)";
+				ICON_FILE = "$(ICON_FILE_PATH)$(ICON)";
+				INFOPLIST_FILE = "openFrameworks-Info.plist";
+				INSTALL_PATH = /Applications;
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				PRODUCT_NAME = "$(TARGET_NAME)Debug";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E4B69B610A3A1757003C02F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4EB6923138AFD0F00A09F29 /* Project.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+				);
+				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/../../../../Code/Frameworks/openFrameworks/libs/glut/lib/osx\"";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_MODEL_TUNING = NONE;
+				ICON = "$(ICON_NAME_RELEASE)";
+				ICON_FILE = "$(ICON_FILE_PATH)$(ICON)";
+				INFOPLIST_FILE = "openFrameworks-Info.plist";
+				INSTALL_PATH = /Applications;
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+				baseConfigurationReference = E4EB6923138AFD0F00A09F29;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E4B69B4D0A3A1720003C02F2 /* Build configuration list for PBXProject "Kinect2Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4B69B4E0A3A1720003C02F2 /* Debug */,
+				E4B69B4F0A3A1720003C02F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4B69B5F0A3A1757003C02F2 /* Build configuration list for PBXNativeTarget "Kinect2Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4B69B600A3A1757003C02F2 /* Debug */,
+				E4B69B610A3A1757003C02F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E4B69B4C0A3A1720003C02F2 /* Project object */;
+}
